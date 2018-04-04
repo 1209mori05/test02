@@ -1,3 +1,8 @@
+<%--UserCreateCompleteAction仕上げれば
+	 中級4時間目おわり--%>>
+
+
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags" %>
@@ -11,7 +16,7 @@
 	<meta http-equiv="imagetoolbar" content="no">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<title>登録完了画面</title>
+	<title>HOME画面</title>
 	<style type="text/css">
 		body {
 			margin:0;
@@ -60,18 +65,20 @@
 	</div>
 	<div id="main">
 		<div id="top">
-			<p>UserCreateComplete</p>
+			<p>HOME</p>
 		</div>
-		<div>
-			<h3>ユーザーの登録が完了致しました。</h3>
-			<div>
-				<a href='<s:url action="HomeAction" />'>ログインへ</a>
-			</div>
+		<div id="text-center">
+			<s:form action="HomeAction">
+				<s:submit value="商品購入" />
+			</s:form>
+			<s:if test="#session.id != null">
+				<p>ログアウトする場合は
+					<a href='<s:url action="LogoutAction" />'>こちら</a></p>
+			</s:if>
 		</div>
 	</div>
 	<div id="footer">
 		<div id="pr"></div>
 	</div>
-
 </body>
 </html>

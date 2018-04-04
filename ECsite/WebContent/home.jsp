@@ -1,3 +1,8 @@
+<%--UserCreateCompleteAction仕上げれば
+	 中級4時間目おわり--%>
+
+
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags" %>
