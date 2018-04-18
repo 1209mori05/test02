@@ -1,0 +1,16 @@
+http://laguna-vt.com/information.html
+http://hb-yukiya.com/SHOP/12936/list.html
+
+https://saruwakakun.com/html-css/basic/linear-radial-gradients
+
+
+
+fifties テーマカラー #00ced1
+【jQuery】
+・クロスフェードで切り替わるシンプルな画像スライドショー：
+http://on-ze.com/archives/1388
+
+・CSSのグラデーション（linear-gradient）の使い方：
+https://saruwakakun.com/html-css/basic/linear-radial-gradient
+
+・

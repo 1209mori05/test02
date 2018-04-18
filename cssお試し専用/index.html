@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">   
+<title>MyPage</title>
+</head>
+<body>
+	<main>
+		<div id="title">
+            <h1>MY PAGE</h1>
+            <p class="title">マイページ</p>
+        </div>
+        <div id="contents">
+            <div id="left">
+                <h3 class="list">ユーザー情報変更</h3>
+                <h3 class="list">お気に入りリスト</h3>
+                <h3 class="list">購入履歴</h3>
+            </div>
+            <div id="right">
+                <div id="contentstitle">
+                    <h1>USER INFO</h1>
+                    <p class="title">ユーザー情報</p>
+                </div>
+                <div id="contentsmenu" class="mt">
+                    <table>
+                        <tr>
+                            <th>ユーザーID</th>
+                            <td>aaa</td>
+                        </tr>
+                        <tr>
+                            <th>パスワード</th>
+                            <td>aaa[変更]</td>
+                        </tr>
+                        <tr>
+                            <th>お名前（姓）</th>
+                            <td>aaaaa</td>
+
+                        </tr>
+                        <tr>
+                            <th>お名前（名）</th>
+                            <td>aaaaaa</td>
+                        </tr>
+                        <tr>
+                            <th>ふりがな（せい）</th>
+                            <td>aaaaaaaaaaaaaaa</td>
+                        </tr>
+                        <tr>
+                            <th>ふりがな（めい）</th>
+                            <td>aaaaaaaaaaaaaaa</td>
+                        </tr>
+                        <tr>
+                            <th>性別</th>
+                            <td><s:if test="sex==0">男性</s:if>
+                                <s:if test="sex==1">女性</s:if></td>
+                        </tr>
+                        <tr>
+                            <th>メールアドレス</th>
+                            <td>aaaaaaaaaaaaaaaaaaa@aaa.aa</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+		</div>
+	</main>
+</body>
+</html>
