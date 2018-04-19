@@ -1,0 +1,50 @@
+0%{background: linear-gradient(to left, rgba(101,200,208,1) 0%,
+					rgba(143,174,231,0.9)  10%,
+					rgba(189,115,255,0.5) 20%, 
+					rgba(255,255,255,255,0) 50%, 
+					rgba(255,69,218,0.5) 80%, 
+					rgba(255,168,218,0.9)  90%, 
+					rgba(255,247,69,1) 100%), url(sample03.jpg); }
+
+20%{background: linear-gradient(to left, rgba(143,174,231,1) 0%,
+					rgba(189,115,255,0.9)  10%,
+					rgba(143,174,231,0.5) 20%, 
+					rgba(255,255,255,0) 50%, 
+					rgba(255,69,218,0.5) 80%, 
+					rgba(255,168,218,0.9)  90%, 
+					rgba(101,200,208,1) 100%), url(sample03.jpg); }
+	 
+	
+
+
+
+水色　(101,200,208
+青　　(143,174,231
+紫　　(189,115,255
+ピンク(255,69,218
+橙　　(255,168,218
+黄　　(255,247,69
+
+
+.color {
+    background-color: black;
+    animation: bg-color 10s infinite;
+    -webkit-animation: bg-color 10s infinite;
+}
+ 
+@-webkit-keyframes bg-color {
+  0% { background-color: #002f35; }
+  20% { background-color: #c900db; }
+  40% { background-color: #ed006e; }
+  60% { background-color: #960002; }
+  80% { background-color: #270075; }
+  100% { background-color: #002f35; }
+}
+@keyframes bg-color {
+  0% { background-color: #002f35; }
+  20% { background-color: #c900db; }
+  40% { background-color: #ed006e; }
+  60% { background-color: #960002; }
+  80% { background-color: #270075; }
+  100% { background-color: #002f35; }
+}

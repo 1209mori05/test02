@@ -13,4 +13,8 @@ http://on-ze.com/archives/1388
 ・CSSのグラデーション（linear-gradient）の使い方：
 https://saruwakakun.com/html-css/basic/linear-radial-gradient
 
-・
+・HTMLとCSSの文字のアニメーション
+http://photoshopvip.net/97946
+
+・CSSで作る背景のアニメーション
+http://blazechariot.wp.xdomain.jp/post-57
